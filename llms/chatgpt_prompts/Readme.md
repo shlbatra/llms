@@ -1,0 +1,44 @@
+- API calls to chatgpt to build software apps
+- Two types of LLMs
+    - Base LLM 
+    - predicts next word based on text training data
+- Instruction Tuned LLM
+    - Tries to follow instructions, Fine tune on instructions and good attempts at following those instructions
+    - base llm + good attempts at instructions to follow (Fine Tune)
+    - use RLHF -> Reinforcement Learning with Human Feedback
+    - Helpful, Honest and Harmless
+- Tactics to work with ChatGPT
+    - clear and specific instructions
+    - give model time to think
+- iterative Prompt Development
+    - Idea -> Implementation (code/data) -> Experiment result -> Error Analysis
+                (Prompt)
+    - Try something
+    - Analyze where result does not give what you want
+    - Clarify instructions, give more time to think
+    - Refine prompts with batch of examples 
+- summarizing
+    - generate summary of text block
+    - better word to use -> more accurate
+- inferring
+    - analysis on text -> sentiment, extract name, so on -> need diff models for each task
+    - Good use case - assign labels for unlabelled data
+    - information extraction
+    - infer topics -> what topics are about ?
+    - Zero Shot Learning -> determine topics in news article without giving any labels
+- tranforming
+    - tranform input to diff format ex. diff language, proof reading for grammer mistakes, html to json format
+- expanding
+    - expand shorter text to longer text (email, essay)
+- temperature
+    - degree of randomness in response of model
+    - temp 0 most likely word (most predictle response - reliable)
+    - high temp -> choose words less likely & diverse response (variety)
+- chatbot
+    - conversation model with llm
+    - custom chatbot
+    - take multiple messages as input and provide next output
+    - role -> system, user and assistant (chatgpt)
+    - system -> overall instruction (Sets behavior) then messages exchange between user and assistant
+- summary
+    - 
