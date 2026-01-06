@@ -1,0 +1,15 @@
+services:
+  app:
+    build: ./app
+    ports:
+      - "8501:8501"
+    env_file:
+      - backend.env
+    depends_on:
+      - llm
+
+  llm:
+    provider:
+      type: model
+      options:
+        model: ${LLM_MODEL_NAME:-ai/smollm2}
