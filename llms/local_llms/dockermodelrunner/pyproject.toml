@@ -1,0 +1,15 @@
+[project]
+name = "docker-model-runner-example"
+version = "0.1.0"
+description = "Docker Model Runner local LLM examples"
+authors = [{ name = "Sahil Batra" }]
+requires-python = ">=3.10"
+dependencies = [
+    "openai>=2.14.0",
+    "requests>=2.28.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ipykernel>=6.28.0",
+]
